@@ -92,6 +92,43 @@ const addToArray = function (array, string) {
   }
 
   //Q2
+  const convertToString = function (array) {
+
+    array.join(" ");
+    return array ;
+    // TODO: Your code here
+  }
+
+
+//q3
+const updateValue = function (array,index,value) {
+ 
+  
+    let index = array.indexOf(array);
+    array[index].Key = index;
+    array[index].Value = newValue; 
+  
+    return index;
+
+  
+}
+
+//q4
+
+
+
+
+//q5
+
+const users = [
+  ["Jane", "123456" ],
+  ["admin", "abc123" ],
+];
+
+const login = function (username, password) {
+ 
+}
+
 
 
 
@@ -103,6 +140,13 @@ const maximumNumber = function (number) {
  return Math.max.apply(Math,number);
 
  }
+
+ //q7
+
+ const reversString = function (string) {
+    string.reverse ();
+  return string;
+}
 
 
 
