@@ -6,6 +6,8 @@ const sum = function (a, b) {
     return sum;
   };
 
+
+
   //q2 average number
   const average = function (a, b) {
     // TODO: Your code here
@@ -20,17 +22,10 @@ const sum = function (a, b) {
 
 
      
-  
-  //3  const findFactorial = function(num){
-// YOUR CODE HERE
-
-   
-
-  
-  
+  //q3  
 
 const findFactorial = (num) => {
-ans=1;
+let ans=1;
 if (num == 0 ||num==1 ) {
 return ans;
 }
@@ -43,9 +38,31 @@ ans =ans *i;
 
 }
 
+//q4
+const round = function (number) {
+return Math.round(number);
+}
+
+//q5
+
+const toThePowerOf = function (base, exponent) {
+  return Math.pow(base,exponent);
+
+}
+
+//q6
+const randomNumber = function () {
+ return Math.random();
+};
+
+//q7
+
+const oneOrZero = function () {
+
+   return Math.random();
 
 
-
+};
 //9write a function includeOf that accept two string arguments string, character and returns true if the string contain the character
 
 const includeOf = function (string, character) {
@@ -74,14 +91,19 @@ const addToArray = function (array, string) {
   
   }
 
-
-
-
   //Q2
 
 
- 
 
-   
+//q6
+
+const maximumNumber = function (number) {
+  
+  // TODO: Your code here
+ return Math.max.apply(Math,number);
+
+ }
+
+
 
 
