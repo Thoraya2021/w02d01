@@ -21,7 +21,7 @@ const sum = function (a, b) {
 
      
   
-  //const findFactorial = function(num){
+  //3  const findFactorial = function(num){
 // YOUR CODE HERE
 
    
@@ -30,16 +30,21 @@ const sum = function (a, b) {
   
 
 const findFactorial = (num) => {
-
-
-if (num == 0) {
-return 1;
+ans=1;
+if (num == 0 ||num==1 ) {
+return ans;
 }
 else {
-return num * fact( num - 1 );
+for (i=num ;i>1 ;i++)
+{
+ans =ans *i;
 }
+}return ans;
 
 }
+
+
+
 
 //9write a function includeOf that accept two string arguments string, character and returns true if the string contain the character
 
@@ -71,12 +76,12 @@ const addToArray = function (array, string) {
 
 
 
+
   //Q2
 
-  const convertToString = function (array) {
-    // TODO: Your code here
-   array. join();
-  }
+
+ 
+
    
 
 
