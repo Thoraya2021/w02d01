@@ -9,13 +9,13 @@ const sum = function (a, b) {
 
 
   //q2 average number
-  const average = function (a, b) {
+  const average = function (array) {
     // TODO: Your code here
    
- let average =(a +b)/2;
+ let averagenum =array.reduce((a,b) =>a+b,0)
   
 
-  return average;
+  return averagenum /array.length ;
 
 
   }
@@ -25,16 +25,16 @@ const sum = function (a, b) {
   //q3  
 
 const findFactorial = (num) => {
-let ans=1;
+let factornum =1;
 if (num == 0 ||num==1 ) {
-return ans;
+return factornum ;
 }
 else {
 for (i=num ;i>1 ;i++)
 {
-ans =ans *i;
+  factornum  =factornum  *i;
 }
-}return ans;
+}return factornum ;
 
 }
 
@@ -58,7 +58,7 @@ const randomNumber = function () {
 //q7
 
 const oneOrZero = function () {
-
+    
    return Math.random();
 
 
@@ -75,10 +75,6 @@ const includeOf = function (string, character) {
  }
    }
 
-
-
-
-
 // task 2 arry 
 
 //Q1
@@ -94,7 +90,7 @@ const addToArray = function (array, string) {
   //Q2
   const convertToString = function (array) {
 
-    array.join(" ");
+    array.join("   ");
     return array ;
     // TODO: Your code here
   }
@@ -102,19 +98,24 @@ const addToArray = function (array, string) {
 
 //q3
 const updateValue = function (array,index,value) {
- 
-  
-    let index = array.indexOf(array);
-    array[index].Key = index;
-    array[index].Value = newValue; 
-  
-    return index;
 
+    let updateval=array.map((array,index)
+    
+    if (index===i){
+    return updateval.array;
   
-}
+    });
+
 
 //q4
 
+const onlyString = function (array) {
+  
+  for(let i=0; i<6; i++){
+    return string;
+
+  // TODO: Your code here
+};
 
 
 
@@ -126,6 +127,7 @@ const users = [
 ];
 
 const login = function (username, password) {
+
  
 }
 
@@ -139,15 +141,11 @@ const maximumNumber = function (number) {
   // TODO: Your code here
  return Math.max.apply(Math,number);
 
- }
+ }}
 
  //q7
 
  const reversString = function (string) {
-    string.reverse ();
-  return string;
-}
-
-
-
-
+  string.reverse ();
+   return string ;
+ }}
